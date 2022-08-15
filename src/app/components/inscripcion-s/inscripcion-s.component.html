@@ -1,0 +1,62 @@
+<div class="container-fluid p-2 container mt-5" >
+    <div class="row">
+      <div class="alert alert-success" style="position: absolute; top: 100px; left: 210px; width: 1100px">
+          <strong>Inscripción a un curso/Solicitar matriculación</strong>
+      </div>
+      <div id="matricularse" style="position: absolute; top: 170px; left: 198px">
+        <a href="../inscripcion"><button id="buttonins">Automatricularme</button></a>
+        <button id="disabled">Solicitar matriculación</button>
+      </div>
+      <div class="col-sm-6"  style="position: absolute; top: 227px; left: 200px; width: 1150px">
+        <table class="table table-bordered" style="position: absolute; width: 1100px">
+            <tr>
+              <th>Imagen</th>
+              <th>Nombre del Curso</th>
+              <th>Docente</th>
+              <th>Ver curso</th>
+              <th> </th>
+            </tr>
+            <tbody>
+            <tr *ngFor="let item of cursoService.cursos">
+              <td><img src="../../../assets/pics/logotipoUTNG.png" alt="logotipoUTNG" width="70px" lang="100px"></td>
+              <td>{{item.nombre}}</td>
+              <td>{{item.cvePersona}}</td>
+              <td><a href="../vertemas"><img src="../../../assets/pics/lupa.png" alt="Lupa" width="55px" height="35px"></a></td>
+              <td><button class="boton-modal" id="webada" onclick="document.getElementById('webada').classList.remove('boton-modal'),document.getElementById('webada').classList.add('boton-modal2')"><label for="btn-modal">Solicitar matriculación</label></button></td>
+              <input type="checkbox" id="btn-modal">
+            </tr>
+          </tbody>
+          </table>
+      </div>
+        <i class="glyphicon glyphicon-user"></i>
+      </div>
+    </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
